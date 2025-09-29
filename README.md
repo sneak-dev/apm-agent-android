@@ -33,7 +33,7 @@ class MyApp extends android.app.Application {
         super.onCreate();
         Connectivity connectivity = Connectivity.create("http[s]://your.endpoint"); // .withAuthToken("your-auth-token");
         ElasticApmAgent.initialize(this, connectivity); // Initialize the Elastic APM agent once.
-        //ElasticApmAgent.initialize(this, connectivity, configuration); optional with custom config.
+        //ElasticApmAgent.initialize(this, connectivity, configuration); optional with custom config....
     }
 }
 ```
