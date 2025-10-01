@@ -8,7 +8,7 @@ Elastic APM Android Agent
 
 In order to use a local version of this agent you'll need to publish it locally into your machine's
 maven local repo. In order to do that, simply open up a terminal in this project's root dir and
-run: `./gradlew publishToMavenLocal`. After that, you can apply this agent into an Android
+run: `./gradlew publishToMavenLocal`. After that, you can apply this agent into an Android.
 application project by following the "Set up" process defined below.
 
 ## Set up
